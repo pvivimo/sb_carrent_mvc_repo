@@ -18,25 +18,25 @@ public class Reservation {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
 	
-	@Column(name = "id")
+	@Column(name = "name")
 	private String name;
 	
-	@Column(name = "id")
+	@Column(name = "email")
 	private String email;
 	
-	@Column(name = "id")
+	@Column(name = "address")
 	private String address;
 	
-	@Column(name = "id")
+	@Column(name = "phonenumber")
 	private String phoneNumber;
 	
-	@Column(name = "id")
+	@Column(name = "startdate")
 	private LocalDate startDate;
 	
-	@Column(name = "id")
+	@Column(name = "enddate")
 	private LocalDate endDate;
 	
-	@Column(name = "id")
+	@Column(name = "carid")
 	private int carId;
 
 	public int getId() {
